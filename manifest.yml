@@ -1,0 +1,23 @@
+modules:
+  jira:projectPage:
+    - key: forge-with-angular-hello-world-project-page
+      resource: main
+      resolver:
+        function: resolver
+      title: forge-with-angular
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/angular/dist'
+app:
+  id: ari:cloud:ecosystem::app/64f297ed-0df5-4095-b652-1efb20683c68
+  name: forge-with-angular
+
+permissions:
+  content:
+    styles:
+      - 'unsafe-inline'
+    scripts:
+      - 'unsafe-eval'
