@@ -22,13 +22,13 @@ couple of details to make it work properly with forge:
 
 1. Make sure your manifest includes the following permissions:
 
-    ```yaml
-        permissions:
-    content:
-        styles:
-        - 'unsafe-inline'
-        scripts:
-        - 'unsafe-eval'
-    ```
+```yaml
+permissions:
+  content:
+    styles:
+      - 'unsafe-inline'
+    scripts:
+      - 'unsafe-eval'
+```
 
 2. Make sure your index.html base href is `<base href="">`
