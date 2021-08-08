@@ -8,7 +8,8 @@ Steps to test this project:
 
 1. Create a forge app using `forge create` just to get your application id (app > id)
 2. Edit the manifest and fill the id with your generated id
-3. Run:
+3. Go to static/forge-with-angular and run `npm install && ng build --prod`
+4. Deploy the application:
 
 ```sh
 forge deploy

@@ -4,13 +4,13 @@ modules:
       resource: main
       resolver:
         function: resolver
-      title: forge-with-angular
+      title: Forge with Angular
   function:
     - key: resolver
       handler: index.handler
 resources:
   - key: main
-    path: static/angular/dist'
+    path: static/forge-with-angular/dist/forge-with-angular
 app:
   id: ari:cloud:ecosystem::app/64f297ed-0df5-4095-b652-1efb20683c68
   name: forge-with-angular
